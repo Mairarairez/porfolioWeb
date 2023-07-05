@@ -1,0 +1,37 @@
+nav {
+    background-color: #ffffff; /* Color de fondo de la barra de navegación */
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-left: 20px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #333333; /* Color de los enlaces en la barra de navegación */
+    font-size: 16px;
+  }
+  
+  .menu li a:hover {
+    color: #ff0000; /* Color al pasar el cursor sobre los enlaces */
+  }
+  
